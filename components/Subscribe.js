@@ -49,8 +49,8 @@ function SubscribeCard({
       </p>
       <p className="mt-0">
         As a thank you, I'll also send you a{' '}
-        <span className="text-indigo-500 font-fancy dark:text-indigo-400">
-          Free CSS
+        <span className="text-purple-800 font-fancy dark:text-indigo-400">
+          Free Resources 
         </span>{' '}
         tutorial!
       </p>
@@ -62,14 +62,14 @@ function SubscribeCard({
       >
         <input
           ref={inputRef}
-          placeholder="bobloblaw@gmail.com"
+          placeholder="abdulazeezabass@gmail.com"
           type="email"
           autoComplete="email"
           required
           className="block w-full px-4 bg-white border-gray-300 rounded-full shadow-sm dark:bg-dark md:py-3 focus:ring-midnight dark:focus:ring-gray-100 sm:text-sm md:text-base dark:border-gray-400"
         />
         <button
-          className="absolute top-[-13px] right-[3px] md:right-[5px] md:top-[5px] py-0.5 md:py-1 items-center justify-center px-4 bg-indigo-500 hover:bg-indigo-600 dark:bg-indigo-500 dark:hover:bg-indigo-400 text-white rounded-full"
+          className="absolute top-[-13px] right-[3px] md:right-[5px] md:top-[5px] py-0.5 md:py-1 items-center justify-center px-4 bg-purple-800 hover:bg-indigo-600 dark:bg-indigo-500 dark:hover:bg-indigo-400 text-white rounded-full"
           type="submit"
         >
           {form.state === Form.Loading ? <LoadingSpinner /> : 'Subscribe'}
@@ -86,10 +86,7 @@ function SubscribeCard({
           } subscribers – `}
           <a href="https://youtube.com">
           {/* <a href={siteMetadata.newsletter}> */}
-            
-            {`${
-            issuesCount > 0 ? issuesCount.toLocaleString() : '-'
-          } issues`}</a>
+            </a>
         </p>
       )}
     </div>
