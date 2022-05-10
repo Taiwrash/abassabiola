@@ -112,7 +112,7 @@ export default function About({ recentArticles }) {
             alt={'article cover'}
           />
         </div> */}
-        <div className="col-span-3">
+        {/* <div className="col-span-3">
           <p className="">
             In a past life, I was an indie mobile developer making mobile games
             for iOS and Android, with one of my games outselling Angry Birds.
@@ -129,11 +129,11 @@ export default function About({ recentArticles }) {
             <a href="http://twitter.com">CodePen</a>. I also help run a
             mediocre <a href="https://anchor.fm/florida-man">podcast</a>.
           </p>
-        </div>
+        </div> */}
       </div>
       <hr className="my-16 w-full border-none text-center h-10 before:content-['∿∿∿'] before:text-[#D1D5DB] before:text-2xl"></hr>
       <div className="mt-12 space-y-6">
-        <h2 className="m-0 text-gray-900 dark:text-white">Work experience</h2>
+        <h2 className="m-0 text-purple-900 dark:text-white">Work experience</h2>
         <p>Here's a brief rundown of my most recent experiences.</p>
         <div className="space-y-2">
           {workExperience.map((workItem) => (
@@ -178,7 +178,7 @@ export default function About({ recentArticles }) {
           </p>
           <Button
             buttonType={ButtonType.PRIMARY}
-            onButtonClick={() => push('/toolbox')}
+            onButtonClick={() => push('/projects')}
           >
             Check out my toolbox
           </Button>
