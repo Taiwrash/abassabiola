@@ -21,7 +21,7 @@ export default function Projects() {
           in training session to teach communication skills.
           </p>
           <a
-            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
+            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-purple-900 dark:bg-gray-200 dark:text-midnight general-ring-state"
             href="https://www.youtube.com"
             target="_blank"
             rel="noreferrer"
@@ -31,7 +31,7 @@ export default function Projects() {
         </div>
         <div className="col-span-2">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
-            <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight md:h-[450px] h-auto">
+            <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-purple-900 md:h-[450px] h-auto">
               <Image
                 className="absolute "
                 objectFit="fit"
@@ -57,14 +57,14 @@ export default function Projects() {
           </p>
           <Link href='/blog'>
           <a
-            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"          >
+            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-purple-900 dark:bg-gray-200 dark:text-midnight general-ring-state"          >
             My Writing
           </a>
           </Link>
         </div>
         <div className="col-span-2">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
-            <div className="relative h-auto col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight">
+            <div className="relative h-auto col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-purple-900">
               <Image
                 className="absolute top-0 left-0"
                 objectFit="fill"
@@ -87,14 +87,14 @@ export default function Projects() {
           some cool stuffs.
           </p>
           <a
-            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
+            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-purple-900 dark:bg-gray-200 dark:text-midnight general-ring-state"
            >
             My Content
           </a>
         </div>
         <div className="col-span-2">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
-            <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight md:h-[450px] h-auto">
+            <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-purple-900 md:h-[450px] h-auto">
               <Image
                 className="absolute top-5 md:top-0 "
                 objectFit="fill"
@@ -123,7 +123,7 @@ export default function Projects() {
            What can we do together?
           </p>
           <a
-            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-midnight dark:bg-gray-200 dark:text-midnight general-ring-state"
+            className="items-center justify-center w-full px-12 py-3 font-medium text-white no-underline rounded-full cursor-pointer md:w-auto md:inline-flex bg-purple-900 dark:bg-gray-200 dark:text-midnight general-ring-state"
             href="mailto:abdulazeezabass@gmail.com"
             target="_blank"
             rel="noreferrer"
@@ -133,7 +133,7 @@ export default function Projects() {
         </div>
         <div className="col-span-2">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
-            <div className="relative h-auto col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight">
+            <div className="relative h-auto col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-purple-900">
               <Image
                 className="absolute top-0 left-0"
                 objectFit="fill"

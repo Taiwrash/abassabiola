@@ -29,10 +29,10 @@ export default function Home({ recentArticles }) {
                 alt="Abass Abiola"
                 height={300}
                 width={300}
-                src={'/assets/Home Page.jpg'|| "/assets/Home-Page.jpg"}
+                src={'/assets/Home Page.jpg'}
                 // src={siteMetadata.avatarImage}
                 placeholder="blur"
-                blurDataURL={'/assets/Home Page.jpg'|| "/assets/Home-Page.jpg"}
+                blurDataURL={'/assets/Home Page.jpg'}
                 className="col-span-1 md:opacity-60 md:hover:opacity-100 rounded-lg"
                 layout="fixed"
               />
